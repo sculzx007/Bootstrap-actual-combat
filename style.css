@@ -1,0 +1,317 @@
+.scu_logo {
+    margin: 0;
+    padding: 0;
+    height: 35px;
+}
+
+#myCarousel {
+    margin: 50px 0 0 0;
+}
+
+#navbar-collapse {
+    margin-top: 0;
+}
+
+.carousel-inner img {
+    margin: 0 auto;
+}
+
+/*
+.carousel-control {
+    font-size: 100px;
+
+}*/
+
+.tab1 {
+    margin: 30px 0;
+    color: #666;
+}
+.tab1-h2 {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #0059B2;
+}
+
+.tab1-p {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #999;
+    margin: 20px 0 40px 0;
+}
+
+.tab1 .col {
+    padding: 20px;
+}
+
+.tab1 .media-heading {
+    margin: 5px 0 20px 0;
+}
+
+.tab1 .text-muted {
+    color: #AAA;
+    text-decoration: line-through;
+}
+
+.tab2 {
+    background-color: #eee;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.tab3 {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/*给tab2 和 tab3两张图片设置响应式*/
+/*
+.tab2 img {
+    width: 45%;
+    height: 45%;
+}
+
+.tab3 img {
+    width: 65%;
+    height: 65%;
+}
+*/
+
+
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    color: #666;
+}
+
+#information {
+    background-color: #eee;
+    padding: 40px 0;
+}
+
+.information-content {
+    background-color: #fff;
+    margin: 0 0 20px 0;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.information-content img {
+    margin: 12px 0;
+}
+
+.information-content h4 {
+    color: #333;
+    padding: 2px 0 0 0;
+    font-size: 14px;
+}
+
+.information-content p {
+    line-height: 1.6;
+    font-size: 11px;
+}
+
+.info-right {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.info-right blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.info-right h2 {
+    font-size: 20px;
+    color: #333;
+    padding: 5px;
+}
+
+.info-right h4 {
+    color: #333;
+    padding: 3px 0 0 0;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.info-right-content {
+    margin: 12px 0;
+    padding: 0;
+}
+
+#footer {
+    background-color: #666;
+    border-top: 1px solid #cccccc;
+    text-align: center;
+    padding: 15px;
+    color: #eee;
+}
+
+
+.jumbotron {
+    background-image: url(image/bg.jpg);
+    margin: 50px 0 0 0;
+    color: #eee;
+}
+
+.jumbotron h1 {
+    font-size: 26px;
+    padding: 0 0 0 5px;
+}
+
+.jumbotron h4 {
+    font-size: 15px;
+    padding: 0 0 0 5px;
+}
+
+#case {
+    padding: 40px 0;
+    background-color: #eee;
+    text-align: center;
+}
+
+#case h4{
+    color: #666;
+}
+
+#case p{
+    color: #666;
+    line-height: 1.6;
+}
+
+#case .col{
+    margin: 0 0 20px 0;
+}
+
+#about {
+    background-color: #eee;
+    padding: 40px 15px;
+}
+
+#about a {
+    color: #0059b2;
+}
+
+#about .about {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+#about h3 {
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    margin: 0 0 10px 0;
+}
+
+#about p {
+    line-height: 2;
+    font-size: 13px;
+}
+
+/*没有小于768px，是因为Bootstrap以移动端为优先设计*/
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+    .text h3 {font-size: 22px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+    .tab2-text {
+        float: left;
+    }
+    .tab2-img {
+        float: right;
+    }
+    .jumbotron h1 {
+        font-size: 30px;
+    }
+    .jumbotron h4 {
+        font-size: 16px;
+    }
+    .information-content h4 {
+        font-size: 16px;
+        /*对于中等屏幕及大型屏幕，该标题需要保持一行*/
+        overflow: hidden;
+        white-space: nowrap;             /*保持一行*/
+        text-overflow: ellipsis;         /*用省略号表示*/
+    }
+    .information-content p {
+        font-size: 12px;
+    }
+    #about h3 {
+        font-size: 19px;
+    }
+    #about p {
+        font-size: 14px;
+    }
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+    .text h3 {
+        font-size: 24px;
+    }
+    .text p {
+        font-size: 16px;
+    }
+    .tab2-text {
+        float: left;
+    }
+    .tab2-img {
+        float: right;
+    }
+    .jumbotron h1 {
+        font-size: 33px;
+    }
+    .jumbotron h4 {
+        font-size: 17px;
+    }
+    .information-content h4 {
+        font-size: 18px;
+    }
+    .information-content p {
+        font-size: 13px;
+    }
+    #about h3 {
+        font-size: 20px;
+    }
+    #about p {
+        font-size: 15px;
+    }
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+    .text h2 {
+        font-size: 26px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+    .tab2-text {
+        float: left;
+    }
+    .tab2-img {
+        float: right;
+    }
+    .jumbotron h1 {
+        font-size: 36px;
+    }
+    .jumbotron h4 {
+        font-size: 18px;
+    }
+    .information-content h4 {
+        font-size: 20px;
+    }
+    .information-content p {
+        font-size: 14px;
+    }
+    #about h3 {
+        font-size: 22px;
+    }
+    #about p {
+        font-size: 16px;
+    }
+}
+
